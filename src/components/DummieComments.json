@@ -1,0 +1,89 @@
+{
+  "movies": [
+    {
+      "title": "Inception",
+      "reviews": [
+        {
+          "comment": "Mind-bending plot with stunning visuals. A masterpiece of modern cinema.",
+          "stars": 5
+        },
+        {
+          "comment": "Inception is a complex and thrilling ride that keeps you guessing until the very end.",
+          "stars": 4
+        },
+        {
+          "comment": "One of the most innovative and captivating films I've ever seen.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "reviews": [
+        {
+          "comment": "An emotionally gripping story with outstanding performances. A true classic.",
+          "stars": 5
+        },
+        {
+          "comment": "The Shawshank Redemption is a timeless tale of hope and redemption.",
+          "stars": 5
+        },
+        {
+          "comment": "One of the greatest films ever made. Every scene is powerful and memorable.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "title": "The Godfather",
+      "reviews": [
+        {
+          "comment": "A cinematic masterpiece with flawless performances and an unforgettable story.",
+          "stars": 5
+        },
+        {
+          "comment": "The Godfather sets the standard for all crime dramas. A true classic.",
+          "stars": 5
+        },
+        {
+          "comment": "An epic saga of power, family, and betrayal. Simply unforgettable.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "title": "Pulp Fiction",
+      "reviews": [
+        {
+          "comment": "Pulp Fiction is a stylish and unforgettable journey through the criminal underworld.",
+          "stars": 5
+        },
+        {
+          "comment": "Tarantino's masterpiece. A wild ride from start to finish.",
+          "stars": 5
+        },
+        {
+          "comment": "An iconic film that redefined cinema. A must-watch for any movie lover.",
+          "stars": 5
+        }
+      ]
+    },
+    {
+      "title": "The Dark Knight",
+      "reviews": [
+        {
+          "comment": "A gripping and intense superhero film with standout performances.",
+          "stars": 5
+        },
+        {
+          "comment": "Heath Ledger's Joker is legendary. The Dark Knight is a modern classic.",
+          "stars": 5
+        },
+        {
+          "comment": "The Dark Knight raises the bar for superhero movies. Nolan's masterpiece.",
+          "stars": 5
+        }
+      ]
+    }
+  ]
+}
