@@ -5,23 +5,23 @@
 //Needs to be able to attach to certain movies? Will that happen on this component?
 
 import React from 'react';
-import Movie from './Movie';
 
 class RatingAverage extends React.Component {
   calculateAverage = (reviews) => {
     // Convert each rating to a number and calculate the average
-    const ratings = reviews.flatMap((review) => review.ratings || []);
+    const ratings = reviews.flatMap((review) => review?.stars || []);
     const total = ratings.reduce((acc, curr) => acc + Number(curr), 0);
     return total / ratings.length;
   };
 
   render() {
+    console.log()
     const {reviews} = this.props;
     const average = reviews.length > 0 ? this.calculateAverage(reviews) : null;
 
     return (
       <div>
-        <h1>Average Rating: {average !== null ? average.toFixed(2) : 'No ratings yet'}</h1>
+        <h1>Average Rating: {average !== null ? average.toFixed(2) + `stars` : 'No ratings yet'}</h1>
       </div>
     );
   }
